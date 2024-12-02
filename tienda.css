@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin:0;
+}
+@font-face {
+    font-family:pacman ;
+    src: url(pacman.otf);
+}
+body{
+    display: flex;
+    background-color: black;
+}
+section{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:55%;
+    height: 100vh;
+}
+aside{
+    background-color: yellow;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+form{
+    background-color:#3d3635;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    border-color: black;
+    width: 40%;
+    height: 400px;
+    padding:22px;
+    border:12px double blue;
+
+}
+#usuario,#contra{
+    width: 180px;
+    height: 20px;
+
+}
+h2{
+    text-align: center;
+    font-family: pacman;
+    color: yellow;
+}
+.caja{
+    display: flex;
+}
+.caja label{
+    width: 120px;
+color: yellow;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+align-self: center;
+font-size: 0.9em;
+}
+#log{
+    background-color: yellow;
+    justify-content: center;
+    text-align: center;
+    font-size:1em;
+    letter-spacing: 20px;
+    text-decoration: none;
+    font-family: "ARIAL BLACK";
+    border-radius: 10px;
+    padding: 20px;
+    width: 88%;
+    height:3%
+}
+img{
+    margin:10px;
+    width: 15%;
+    height: 15%;
+}
